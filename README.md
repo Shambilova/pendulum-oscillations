@@ -11,13 +11,19 @@
 - сравнение колебаний при разных значениях *k*;
 - таблица характеристик (период, время затухания до 5%) на pandas.
 
+## Графики
+
+![Свободные и затухающие колебания](oscillations.png)
+
+![Влияние коэффициента сопротивления k](damping_k.png)
+
 ## Результаты
 - чем больше сопротивление, тем быстрее затухание и тем больше период колебаний;
 - при k = 0.05 колебания затухают до 5% от начальной амплитуды примерно за 1.8 с;
 - при слишком большом затухании колебаний нет (апериодический режим).
 
 ## Стек
-Python, NumPy, pandas, Matplotlib. Запуск: открыть `pendulum_oscillations.ipynb` в Google Colab.
+Python, NumPy, pandas, Matplotlib.
 
 ## Запуск
 [Открыть в Google Colab](https://colab.research.google.com/github/Shambilova/pendulum-oscillations/blob/main/pendulum_oscillations.ipynb)
